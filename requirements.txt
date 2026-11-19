@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+imbalanced-learn
+joblib
+librosa
+sounddevice
+soundfile
+pytest
+torch
+transformers
+datasets

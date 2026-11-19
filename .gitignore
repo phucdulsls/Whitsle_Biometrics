@@ -1,0 +1,38 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data & models
+data/raw/
+data/mock/
+models/*.joblib
+logs/
+/results/
+
+# External upstream baseline files & pre-extracted features (not redistributed; download from official repo)
+features/
+run_experiments_*.sh
+src/experiments.py
+src/main.py
+src/train_classifier.py
+src/utils.py
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.antigravity/
+
